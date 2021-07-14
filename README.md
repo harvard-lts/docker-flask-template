@@ -1,7 +1,7 @@
 # docker-flask-template
 This project will create a generic, Dockerized, Flask application ready for action!
 
-This example shows two different use-cases for the Flask Application. An API and an HTML site. If you want just an HTML site, you can remove the API functionality.
+This example shows two different use-cases for the Flask Application. An API and an HTML site. If you want just an HTML site, you can remove the API functionality by [deleting these lines in `app/resources.py`](app/resources.py#L9-L17).
 
 After following the setup instructions and starting your Docker container, you should have a running Flask application with two routes:
 
