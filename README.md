@@ -46,9 +46,9 @@ After cloning your brand-new project repository, you can copy the files from thi
 ### 5: Change image names in `docker-compose.yml`
 - change image name on [lines 10-11](/docker-compose.yml#L10-L11)
 
-### 6: Change log file names in `supervidord.conf`
-- change log file name on [line 3](/supervidord.conf#L3)
-- change log file name on [linees 14-15](/supervidord.conf#L14-L15)
+### 6: Change log file names in `supervisord.conf`
+- change log file name on [line 3](/supervisord.conf#L3)
+- change log file name on [lines 14-15](/supervisord.conf#L14-L15)
 
 ### 7: Change titles and descriptions in `app/resources.py`
 - change title and description on [lines 9-10](/app/resources.py#L9-L10)
