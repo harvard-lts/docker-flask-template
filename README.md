@@ -39,24 +39,19 @@ After cloning your brand-new project repository, you can copy the files from thi
 *Note: The config file .env is specifically excluded in .gitignore and .dockerignore, since it contains credentials it should NOT ever be committed to any repository.*
 
 ### 4: Change container and network names in `docker-compose-local.yml`
-- change container name on [line 8](/docker-compose-local.yml#L8)
-- change container name on [line 9]((/docker-compose-local.yml#L0))
+- change container name on [lines 8-9](/docker-compose-local.yml#L8-L9)
 - change network name on [line 21](/docker-compose-local.yml#L21)
-- change network name on [line 26](/docker-compose-local.yml#L26)
-- change network name on [line 27](/docker-compose-local.yml#L27)
+- change network name on [lines 26-27](/docker-compose-local.yml#L26-L27)
 
 ### 5: Change image names in `docker-compose.yml`
-- change image name on [line 10](/docker-compose.yml#L10)
-- change image name on [line 11](/docker-compose.yml#L11)    
+- change image name on [lines 10-11](/docker-compose.yml#L10-L11)
 
 ### 6: Change log file names in `supervidord.conf`
 - change log file name on [line 3](/supervidord.conf#L3)
-- change log file name on [line 14](/supervidord.conf#L14)
-- change log file name on [line 15](/supervidord.conf#L15)
+- change log file name on [linees 14-15](/supervidord.conf#L14-L15)
 
 ### 7: Change titles and descriptions in `app/resources.py`
-- change title and description on [line 9](/app/resources.py#L9)
-- change title and description on [line 10](/app/resources.py#L10)
+- change title and description on [lines 9-10](/app/resources.py#L9-L10)
 
 ### 7: Change uid and gid in `DockerfilePub`
 - change uid and gid on [line 26](/DockerfilePub#L26)
