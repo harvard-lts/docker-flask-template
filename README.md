@@ -8,6 +8,7 @@ After following the setup instructions and starting your Docker container, you s
 * An API description that displays here: https://localhost:3001/
 * An API endpoint that displays the version here: https://localhost:3001/version
 * A "Hello, World" HTML page here: https://localhost:3001/hello-world
+* A Health Check page here: https://localhost:3001/healthcheck
 
 
 ## Technology Stack
@@ -74,7 +75,7 @@ This step is only required if additional python packages must be installed durin
 Open a shell using the exec command to access the hgl-downloader container.
 
 ```
-docker exec -it hgl-downloader bash
+docker exec -it docker-flask-template bash
 ```
 
 ##### Install a new pip package
