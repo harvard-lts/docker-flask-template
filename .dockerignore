@@ -6,3 +6,4 @@ app/static/files/
 .env
 env-example.txt
 *.log
+webapp.conf
