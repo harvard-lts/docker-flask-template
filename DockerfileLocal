@@ -26,7 +26,7 @@ COPY --chown=appuser . /home/appuser
 RUN rm -f /etc/nginx/sites-enabled/default && \
     rm -f /etc/service/nginx/down && \
     mkdir -p /data/nginx/cache && \
-    mv /home/appuser/webapp.conf /etc/nginx/conf.d && \
+    mv /home/appuser/webapp.conf.example /etc/nginx/conf.d/webapp.conf && \
     chown appuser /etc/ssl/certs && \
     chown appuser /etc/ssl/openssl.cnf && \
     chown -R appuser:appuser /var/log/nginx && \
