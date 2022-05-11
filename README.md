@@ -40,7 +40,7 @@ After cloning your brand-new project repository, you can copy the files from thi
 *Note: The config file .env is specifically excluded in .gitignore and .dockerignore, since it contains credentials it should NOT ever be committed to any repository.*
 
 ##### Create webapp.conf file for environment variables
-- Make a copy of the config example file `./`
+- Make a copy of the config example file `./webapp.conf.example`
 - Rename the file to `webapp.conf`
 - Replace placeholder values as necessary (anything localhost will be changed in a deployed environment)
 
